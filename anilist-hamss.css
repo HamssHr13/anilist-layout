@@ -2,7 +2,7 @@
 		- by Hamss
 		- https://anilist.co/user/TheHAMSS
 		- Copyright (c) 2022
-		+ CSS V.1.0.0
+		+ CSS V.1.0.1
 */
 
 :root {
@@ -449,7 +449,7 @@ stats:nth-child(1) .stat:nth-child(3) .label {
     animation-duration: 1s;
 }
 
-.activity-message .wrap, .activity-text .wrap {
+.activity-message .wrap, .activity-text .wrap[data-v-77aecf0c] {
     border-left-width: 5px;
     border-left-style: solid;
     border-left-color: rgb(var(--hamss-red));
@@ -517,4 +517,8 @@ stats:nth-child(1) .stat:nth-child(3) .label {
 
 h2[data-v-a5dce466] {
     color: rgb(var(--hamss-red)) ;
+}
+
+a[data-v-a5dce466]::before {
+	display: none;
 }
