@@ -2,7 +2,7 @@
 		- by Hamss
 		- https://anilist.co/user/TheHAMSS
 		- Copyright (c) 2022
-		+ CSS V.1.0.1
+		+ CSS V.1.0.2
 */
 
 :root {
@@ -21,7 +21,7 @@
 
 :root, body, .site-theme-dark, .site-theme-contrast {
     --color-background: 14, 18, 22 !important;
-	--color-blue: 120, 180, 255 !important;
+	--color-blue: 225, 51, 51 !important;
 	--color-shadow-blue: 0, 0, 0 !important;
 	--color-foreground: 20, 25, 31 !important;
 	--color-foreground-alt: 18, 23, 29 !important;
@@ -185,6 +185,7 @@ body {
 }
 
 .nav[data-v-4fbac4e1] {
+    background: rgb(var(--color-background-100)) !important;
     display: flex;
     height: 60px;
     width: 70%;
