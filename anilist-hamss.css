@@ -2,7 +2,7 @@
 		- by Hamss
 		- https://anilist.co/user/TheHAMSS
 		- Copyright (c) 2022
-		+ CSS V.1.0.2
+		+ CSS V.1.0.3
 */
 
 :root {
@@ -162,12 +162,19 @@ body {
     width: 10px;
 }
 
-::-webkit-scrollbar-corner {
-
-}
 ::-webkit-scrollbar-thumb {
     background: rgb(var(--hamss-red));
     -webkit-border-radius: 100px;
+}
+
+/* Activity scrollbar */
+
+.wrap[data-v-77aecf0c] ::-webkit-scrollbar {
+    width: 6px;
+}
+
+.wrap[data-v-77aecf0c] ::-webkit-scrollbar-thumb {
+    background: rgb(var(--hamss-red));
 }
 
 
