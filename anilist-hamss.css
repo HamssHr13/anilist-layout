@@ -556,3 +556,46 @@ body {
 .emoji-spinner::after {
     content: var(--loading-spinner);
 }
+
+
+/* HohPinned - KurisuTheme */
+
+.hohPinned.activity-text 
+> div 
+> div.text 
+> div.header {
+    display: none !important;
+}
+
+.hohPinned.activity-text > div > div.text > div.activity-markdown {
+    border-bottom: 0 !important;
+}
+
+.hohPinned .time {
+    display: none !important;
+}
+
+.hohPinned.activity-text > div > div.text > div.header {
+    display: none !important;
+}
+
+.hohPinned .action {
+    display: none !important;
+}
+
+.hohPinned.activity-text 
+> div 
+> div.text 
+> div.activity-markdown 
+> div {
+    margin-bottom: 0 !important;
+}
+
+.hohPinned.activity-text > div > div.text > div.activity-markdown > div.markdown {
+    padding-left: 10px;
+    margin-top: 0 !important;
+}
+
+.hohPinned.activity-text > div > div.text {
+    padding: 0 !important;
+}
