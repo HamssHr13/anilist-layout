@@ -11,6 +11,7 @@
     --hamss-red-200: 255,136,136;
     --hamss-background: url(https://i.imgur.com/mjCGblk.png);
     --anilist-icon: url(https://files.catbox.moe/y77blt.svg);
+    --loading-spinner: url(https://i.imgur.com/5XTqdYe.png);
 }
 
 
@@ -533,11 +534,25 @@ a[data-v-a5dce466]::before {
 
 
 /* Cursor */
+
 body {
     cursor: url(https://cur.cursors-4u.net/cursors/cur-2/cur125.cur), auto !important;
 }
 
+
 /* <a> Color */
+
 .markdown a, .markdown a:visited, .name[data-v-77aecf0c] {
     color: rgb(var(--hamss-red));
+}
+
+
+/* Loading Spinner */
+
+.emoji-spinner {
+    font: 0/0 a;
+}
+
+.emoji-spinner::after {
+    content: var(--loading-spinner);
 }
