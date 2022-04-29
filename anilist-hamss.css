@@ -2,7 +2,7 @@
 		- by Hamss
 		- https://anilist.co/user/TheHAMSS
 		- Copyright (c) 2022
-		+ CSS V.1.1.0
+		+ CSS v1.0.5
 */
 
 :root {
@@ -99,8 +99,8 @@ body {
       Nav Container
 =======================*/
 
-.nav[data-v-4fbac4e1] {
-    background: rgb(var(--color-foreground));
+.nav[data-v-62eacfff] {
+    background: rgb(var(--color-foreground)) !important;
 }
 
 .header-wrap .nav-wrap .nav {
