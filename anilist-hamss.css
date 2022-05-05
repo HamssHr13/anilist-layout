@@ -2,7 +2,7 @@
 		- by Hamss
 		- https://anilist.co/user/TheHAMSS
 		- Copyright (c) 2022
-		+ CSS v1.0.5
+		+ CSS v1.0.6
 */
 
 :root {
@@ -433,6 +433,15 @@ stats:nth-child(1) .stat:nth-child(3) .label {
     color: rgb(var(--hamss-red-200)) !important;
 }
 
+.activity-anime_list 
+> div
+> div
+> div
+> div 
+> .title, .hohPinned .list .title[href^="/anime/"] {
+    color: rgb(var(--hamss-red)) !important;
+}
+
 .wrap 
 > div.text 
 > div.activity-markdown{
@@ -598,4 +607,10 @@ body {
 
 .hohPinned.activity-text > div > div.text {
     padding: 0 !important;
+}
+
+/* */
+
+.name[data-v-b584a8de] {
+    color: rgb(var(--hamss-red));
 }
