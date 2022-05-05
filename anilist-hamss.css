@@ -376,9 +376,7 @@ body .overview .favourite.studio,
     padding: 0;
 }
 
-.list-stats:nth-child(2) .stat:nth-child(1) .label, .list-
-
-stats:nth-child(1) .stat:nth-child(1) .label {
+.list-stats:nth-child(2) .stat:nth-child(1) .label, .list-stats:nth-child(1) .stat:nth-child(1) .label {
     color: rgb(var(--hamss-red-200));
 }
 
